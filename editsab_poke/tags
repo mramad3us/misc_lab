@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FuzzedFile	spike.rb	/^class FuzzedFile < SpikedFile$/;"	c
+SpikedFile	spike.rb	/^class SpikedFile$/;"	c
+Spiker	spike.rb	/^module Spiker$/;"	m
+bitflip	spike.rb	/^    def Spiker.bitflip(idata,verbose)$/;"	F
+cleanup	spike.rb	/^    def cleanup$/;"	f	class:FuzzedFile
+cleanup	spike.rb	/^    def cleanup$/;"	f	class:SpikedFile
+dump	spike.rb	/^    def dump$/;"	f	class:SpikedFile
+findit	headermaker.rb	/^def findit(lst,nm,f)$/;"	f
+findval	headermaker.rb	/^def findval(lst,nm)$/;"	f
+initialize	spike.rb	/^    def initialize(inf_name,outf_name='fuzzedfile.fz')$/;"	f	class:FuzzedFile
+initialize	spike.rb	/^    def initialize(outf_name,padding='41',outf_type="wb",name="***")$/;"	f	class:SpikedFile
+insert	spike.rb	/^    def Spiker.insert(inf,outf,hexstr,head_sz=512)$/;"	F	class:Spiker
+insert	spike.rb	/^    def insert(data,enc="H*",offset=@v_cursor)$/;"	f	class:SpikedFile
+log	spike.rb	/^    def log(msg="no message",tag=@name)$/;"	f	class:SpikedFile
+mk_content	spike.rb	/^    def mk_content$/;"	f	class:FuzzedFile
+mk_content	spike.rb	/^    def mk_content$/;"	f	class:SpikedFile
+mutate	spike.rb	/^    def mutate(offst_start,offst_end=nil)$/;"	f	class:FuzzedFile
+open	spike.rb	/^    def self.open(inf_name,outf_name)$/;"	F	class:FuzzedFile
+open	spike.rb	/^    def self.open(outf_name,padding='41',outf_type="wb",name="***")$/;"	F	class:SpikedFile
+size	spike.rb	/^    def size$/;"	f	class:SpikedFile
