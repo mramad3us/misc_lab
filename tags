@@ -1,0 +1,541 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
++	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def +(other)$/;"	f	class:PDF.TextRun
+<=>	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def <=>(other)$/;"	f	class:PDF.TextRun
+==	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^    def ==(obj)$/;"	f	class:PDF.Reference
+Ascii85	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii85.rb	/^    class Ascii85$/;"	c	class:PDF.Filter
+AsciiHex	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii_hex.rb	/^    class AsciiHex$/;"	c	class:PDF.Filter
+BatesReceiver	yobpdf/pdf-reader/examples/extract_bates.rb	/^class BatesReceiver$/;"	c
+BitStream	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^      class BitStream # :nodoc:$/;"	c	class:PDF.Reader.LZW
+Buffer	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^  class Buffer$/;"	c	class:PDF
+BufferHelper	yobpdf/pdf-reader/spec/support/buffer_helper.rb	/^module BufferHelper$/;"	m
+BuiltIn	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^    class BuiltIn$/;"	c	class:PDF.WidthCalculator
+CMap	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^  class CMap # :nodoc:$/;"	c	class:PDF
+CallbackHelper	yobpdf/pdf-reader/spec/support/callback_helper.rb	/^class CallbackHelper$/;"	c
+CidWidths	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^  class CidWidths$/;"	c	class:PDF
+Composite	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/composite.rb	/^    class Composite$/;"	c	class:PDF.WidthCalculator
+Depredict	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^    class Depredict$/;"	c	class:PDF.Filter
+Encoding	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^  class Encoding # :nodoc:$/;"	c	class:PDF
+EncodingHelper	yobpdf/pdf-reader/spec/support/encoding_helper.rb	/^module EncodingHelper$/;"	m
+EncryptedPDFError	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^  class EncryptedPDFError < UnsupportedFeatureError; end$/;"	c	class:PDF
+Error	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^  class Error # :nodoc:$/;"	c	class:PDF
+ExtractFonts	yobpdf/pdf-reader/examples/extract_fonts.rb	/^module ExtractFonts$/;"	m
+ExtractImages	yobpdf/pdf-reader/examples/extract_images.rb	/^module ExtractImages$/;"	m
+Extractor	yobpdf/pdf-reader/examples/extract_fonts.rb	/^  class Extractor$/;"	c	class:ExtractFonts
+Extractor	yobpdf/pdf-reader/examples/extract_images.rb	/^  class Extractor$/;"	c	class:ExtractImages
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii85.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii_hex.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/flate.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/lzw.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/null.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Filter	yobpdf/pdf-reader/lib/pdf/reader/filter/run_length.rb	/^  module Filter # :nodoc:$/;"	m	class:PDF
+Flate	yobpdf/pdf-reader/lib/pdf/reader/filter/flate.rb	/^    class Flate$/;"	c	class:PDF.Filter
+Font	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^  class Font$/;"	c	class:PDF
+FontDescriptor	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^  class FontDescriptor$/;"	c	class:PDF
+FormXObject	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^    class FormXObject$/;"	c	class:PDF.Reader
+GlyphHash	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^  class GlyphHash # :nodoc:$/;"	c	class:PDF
+Hash	yobpdf/pdf-reader/lib/pdf/hash.rb	/^  class Hash < ::PDF::Reader::ObjectHash # :nodoc:$/;"	c	class:PDF
+InvalidObjectError	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^  class InvalidObjectError < MalformedPDFError; end$/;"	c	class:PDF
+Jpg	yobpdf/pdf-reader/examples/extract_images.rb	/^  class Jpg$/;"	c	class:ExtractImages
+LZW	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^    class LZW # :nodoc:$/;"	c	class:PDF.Reader
+Lzw	yobpdf/pdf-reader/lib/pdf/reader/filter/lzw.rb	/^    class Lzw$/;"	c	class:PDF.Filter
+MalformedPDFError	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^  class MalformedPDFError < RuntimeError; end$/;"	c	class:PDF
+Null	yobpdf/pdf-reader/lib/pdf/reader/filter/null.rb	/^    class Null$/;"	c	class:PDF.Filter
+NullSecurityHandler	yobpdf/pdf-reader/lib/pdf/reader/null_security_handler.rb	/^  class NullSecurityHandler$/;"	c	class:PDF
+ObjectCache	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^  class ObjectCache # nodoc$/;"	c	class:PDF
+ObjectHash	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^  class ObjectHash$/;"	c	class:PDF
+ObjectStream	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^  class ObjectStream # :nodoc:$/;"	c	class:PDF
+OrientationDetector	yobpdf/pdf-reader/lib/pdf/reader/orientation_detector.rb	/^  class OrientationDetector$/;"	c	class:PDF
+PDF	yobpdf/pdf-reader/lib/pdf/hash.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii85.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii_hex.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/flate.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/lzw.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/null.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/filter/run_length.rb	/^class PDF::Reader # :nodoc:$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/null_security_handler.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/orientation_detector.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/pages_strategy.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/print_receiver.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^module PDF$/;"	m
+PDF	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/stream.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/synchronized_cache.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/token.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/unimplemented_security_handler.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/composite.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_one_or_three.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_zero.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^class PDF::Reader$/;"	c
+PDF	yobpdf/pdf-reader/spec/transformation_matrix_spec.rb	/^    class PDF::Reader::TransformationMatrix$/;"	c
+PDF	yobpdf/pdf-reader/spec/xref_spec.rb	/^class PDF::Reader::XRef$/;"	c
+Page	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^    class Page$/;"	c	class:PDF.Reader
+PageLayout	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^  class PageLayout$/;"	c	class:PDF
+PageState	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^    class PageState$/;"	c	class:PDF
+PageTextReceiver	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^    class PageTextReceiver$/;"	c	class:PDF.Reader
+PagesStrategy	yobpdf/pdf-reader/lib/pdf/reader/pages_strategy.rb	/^  class PagesStrategy # :nodoc:$/;"	c	class:PDF
+Parser	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^  class Parser$/;"	c	class:PDF
+ParserHelper	yobpdf/pdf-reader/spec/support/parser_helper.rb	/^module ParserHelper$/;"	m
+PrintReceiver	yobpdf/pdf-reader/lib/pdf/reader/print_receiver.rb	/^  class PrintReceiver$/;"	c	class:PDF
+Raw	yobpdf/pdf-reader/examples/extract_images.rb	/^  class Raw$/;"	c	class:ExtractImages
+Reader	yobpdf/pdf-reader/lib/pdf/reader.rb	/^  class Reader$/;"	c	class:PDF
+Reader	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^  class Reader$/;"	c	class:PDF
+Reader	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^  class Reader$/;"	c	class:PDF
+Reader	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^  class Reader$/;"	c	class:PDF
+Reader	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^  class Reader$/;"	c	class:PDF
+Reader	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^  class Reader$/;"	c	class:PDF
+ReaderSpecHelper	yobpdf/pdf-reader/spec/support/reader_spec_helper.rb	/^module ReaderSpecHelper$/;"	m
+Reference	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^  class Reference$/;"	c	class:PDF
+RegisterReceiver	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^  class RegisterReceiver$/;"	c	class:PDF
+ResourceMethods	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^    module ResourceMethods$/;"	m	class:PDF.Reader
+RunLength	yobpdf/pdf-reader/lib/pdf/reader/filter/run_length.rb	/^    class RunLength$/;"	c	class:PDF.Filter
+SpikedFile	editsab_poke/spike.rb	/^class SpikedFile$/;"	c
+Spiker	editsab_poke/spike.rb	/^module Spiker$/;"	m
+StandardSecurityHandler	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^  class StandardSecurityHandler$/;"	c	class:PDF
+StandardSecurityHandlerV5	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^  class StandardSecurityHandlerV5$/;"	c	class:PDF
+Stream	yobpdf/pdf-reader/lib/pdf/reader/stream.rb	/^  class Stream$/;"	c	class:PDF
+StringTable	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^      class StringTable < Hash # :nodoc:$/;"	c	class:PDF
+SynchronizedCache	yobpdf/pdf-reader/lib/pdf/reader/synchronized_cache.rb	/^  class SynchronizedCache$/;"	c	class:PDF
+TTF	yobpdf/pdf-reader/examples/extract_fonts.rb	/^  class TTF$/;"	c	class:ExtractFonts
+TextRun	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^  class TextRun$/;"	c	class:PDF
+Tiff	yobpdf/pdf-reader/examples/extract_images.rb	/^  class Tiff$/;"	c	class:ExtractImages
+Token	yobpdf/pdf-reader/lib/pdf/reader/token.rb	/^  class Token < String # :nodoc:$/;"	c	class:PDF
+TransformationMatrix	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^  class TransformationMatrix$/;"	c	class:PDF
+TrueType	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^    class TrueType$/;"	c	class:PDF.WidthCalculator
+TypeOneOrThree	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_one_or_three.rb	/^    class TypeOneOrThree$/;"	c	class:PDF.WidthCalculator
+TypeZero	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_zero.rb	/^    class TypeZero$/;"	c	class:PDF.WidthCalculator
+UnimplementedSecurityHandler	yobpdf/pdf-reader/lib/pdf/reader/unimplemented_security_handler.rb	/^  class UnimplementedSecurityHandler$/;"	c	class:PDF
+UnsupportedFeatureError	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^  class UnsupportedFeatureError < RuntimeError; end$/;"	c	class:PDF
+WidthCalculator	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^  module WidthCalculator$/;"	m	class:PDF
+WidthCalculator	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/composite.rb	/^  module WidthCalculator$/;"	m	class:PDF
+WidthCalculator	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^  module WidthCalculator$/;"	m	class:PDF
+WidthCalculator	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_one_or_three.rb	/^  module WidthCalculator$/;"	m	class:PDF
+WidthCalculator	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_zero.rb	/^  module WidthCalculator$/;"	m	class:PDF
+XRef	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^  class XRef$/;"	c	class:PDF
+[]	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def [](key)$/;"	f	class:PDF.StringTable
+[]	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def [](key)$/;"	f	class:PDF.ObjectCache
+[]	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def [](key)$/;"	f	class:PDF.ObjectHash
+[]	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def [](objid)$/;"	f	class:PDF.ObjectStream
+[]	yobpdf/pdf-reader/lib/pdf/reader/synchronized_cache.rb	/^    def [](key)$/;"	f	class:PDF.SynchronizedCache
+[]	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def [](ref)$/;"	f	class:PDF.XRef
+[]=	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def []=(key, value)$/;"	f	class:PDF.ObjectCache
+[]=	yobpdf/pdf-reader/lib/pdf/reader/synchronized_cache.rb	/^    def []=(key,value)$/;"	f	class:PDF.SynchronizedCache
+add	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def add(string)$/;"	f	class:PDF.StringTable
+all	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def all(methodname)$/;"	f	class:PDF.RegisterReceiver
+all_args	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def all_args(methodname)$/;"	f	class:PDF.RegisterReceiver
+ancestors	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def ancestors(origin = @page_object[:Parent])$/;"	f	class:PDF.Reader.Page
+array	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def array$/;"	f	class:PDF
+assert_equal	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^    def self.assert_equal(lvalue, rvalue)$/;"	F	class:PDF.Error
+attributes	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def attributes$/;"	f	class:PDF.Reader.Page
+auth_owner_pass	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def auth_owner_pass(pass)$/;"	f	class:PDF.StandardSecurityHandler
+auth_owner_pass	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def auth_owner_pass(password)$/;"	f	class:PDF.StandardSecurityHandlerV5
+auth_user_pass	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def auth_user_pass(pass)$/;"	f	class:PDF.StandardSecurityHandler
+auth_user_pass	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def auth_user_pass(password)$/;"	f	class:PDF.StandardSecurityHandlerV5
+begin_marked_content	yobpdf/pdf-reader/examples/extract_bates.rb	/^  def begin_marked_content(*args)$/;"	f	class:BatesReceiver
+begin_text_object	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def begin_text_object$/;"	f	class:PDF.PageState
+bfrange_type_one	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def bfrange_type_one(start_code, end_code, dst)$/;"	f	class:PDF
+bfrange_type_two	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def bfrange_type_two(start_code, end_code, dst)$/;"	f	class:PDF
+binary_string	yobpdf/pdf-reader/spec/support/encoding_helper.rb	/^  def binary_string(str)$/;"	f	class:EncodingHelper
+binread	yobpdf/pdf-reader/spec/support/reader_spec_helper.rb	/^  def binread(filename)$/;"	f	class:ReaderSpecHelper
+buffer	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def buffer$/;"	f	class:PDF.ObjectStream
+build_fonts	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def build_fonts(raw_fonts)$/;"	f	class:PDF.PageState
+build_parser	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def build_parser(instructions)$/;"	f	class:PDF.CMap
+build_security_handler	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def build_security_handler(opts = {})$/;"	f	class:PDF.ObjectHash
+build_standard_key	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def build_standard_key(pass)$/;"	f	class:PDF.StandardSecurityHandler
+build_standard_key	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def build_standard_key(pass)$/;"	f	class:PDF.StandardSecurityHandlerV5
+build_width_calculator	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def build_width_calculator$/;"	f	class:PDF.Font
+cacheable?	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def cacheable?(obj)$/;"	f	class:PDF.ObjectCache
+cached_tokens_key	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def cached_tokens_key$/;"	f	class:PDF.Reader.FormXObject
+calc_junk_offset	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def calc_junk_offset(io)$/;"	f	class:PDF.XRef
+callback	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def callback(receivers, name, params=[])$/;"	f	class:PDF.Reader.FormXObject
+callback	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def callback(receivers, name, params=[])$/;"	f	class:PDF.Reader.Page
+character_count	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def character_count$/;"	f	class:PDF.TextRun
+check_binary	yobpdf/pdf-reader/spec/support/encoding_helper.rb	/^  def check_binary(obj)$/;"	f	class:EncodingHelper
+check_size_is_non_zero	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def check_size_is_non_zero$/;"	f	class:PDF.Buffer
+check_utf8	yobpdf/pdf-reader/spec/support/encoding_helper.rb	/^  def check_utf8(obj)$/;"	f	class:EncodingHelper
+cleanup	editsab_poke/spike.rb	/^    def cleanup$/;"	f	class:SpikedFile
+clone_state	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def clone_state$/;"	f	class:PDF.PageState
+col_count	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def col_count$/;"	f	class:PDF.PageLayout
+col_multiplier	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def col_multiplier$/;"	f	class:PDF.PageLayout
+color_spaces	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def color_spaces$/;"	f	class:PDF.Reader.ResourceMethods
+complete_refs	yobpdf/pdf-reader/examples/extract_fonts.rb	/^    def complete_refs$/;"	f	class:ExtractFonts.Extractor
+complete_refs	yobpdf/pdf-reader/examples/extract_images.rb	/^    def complete_refs$/;"	f	class:ExtractImages.Extractor
+concatenate_matrix	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def concatenate_matrix(a, b, c, d, e, f)$/;"	f	class:PDF.PageState
+content	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def content$/;"	f	class:PDF.Reader.PageTextReceiver
+content_stream	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def content_stream(receivers, instructions)$/;"	f	class:PDF.Reader.FormXObject
+content_stream	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def content_stream(receivers, instructions)$/;"	f	class:PDF.Reader.Page
+content_stream_md5	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def content_stream_md5$/;"	f	class:PDF.Reader.FormXObject
+control_character?	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^      def control_character?(code_point)$/;"	f	class:PDF.WidthCalculator.BuiltIn
+convert_to_utf8	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def convert_to_utf8(str)$/;"	f	class:PDF.Encoding
+count	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def count(methodname)$/;"	f	class:PDF.RegisterReceiver
+create_new_string	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^      def self.create_new_string(string_table,some_code, other_code)$/;"	F
+ctm	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def ctm$/;"	f	class:PDF.PageState
+ctm_transform	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def ctm_transform(x, y)$/;"	f	class:PDF.PageState
+current_font	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def current_font$/;"	f	class:PDF.PageState
+decode	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def decode(c)$/;"	f	class:PDF.CMap
+decode	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^      def self.decode(data)$/;"	F	class:PDF
+decrypt	yobpdf/pdf-reader/lib/pdf/reader/null_security_handler.rb	/^    def decrypt(buf, _ref)$/;"	f	class:PDF.NullSecurityHandler
+decrypt	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def decrypt(ref, obj)$/;"	f	class:PDF.ObjectHash
+decrypt	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def decrypt( buf, ref )$/;"	f	class:PDF.StandardSecurityHandler
+decrypt	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def decrypt( buf, ref )$/;"	f	class:PDF.StandardSecurityHandlerV5
+decrypt	yobpdf/pdf-reader/lib/pdf/reader/unimplemented_security_handler.rb	/^    def decrypt(buf, ref)$/;"	f	class:PDF.UnimplementedSecurityHandler
+decrypt_aes128	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def decrypt_aes128( buf, ref )$/;"	f	class:PDF.StandardSecurityHandler
+decrypt_rc4	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def decrypt_rc4( buf, ref )$/;"	f	class:PDF.StandardSecurityHandler
+default_encoding	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def default_encoding(font_name)$/;"	f	class:PDF.Font
+default_mapping	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def default_mapping$/;"	f	class:PDF.Encoding
+deref!	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def deref!(key)$/;"	f	class:PDF.ObjectHash
+deref_internal!	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def deref_internal!(key, seen)$/;"	f	class:PDF.ObjectHash
+detect_orientation	yobpdf/pdf-reader/lib/pdf/reader/orientation_detector.rb	/^    def detect_orientation$/;"	f	class:PDF.OrientationDetector
+dictionary	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def dictionary$/;"	f	class:PDF.Parser
+differences	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def differences$/;"	f	class:PDF.Encoding
+differences=	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def differences=(diff)$/;"	f	class:PDF.Encoding
+doc_strings_to_utf8	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def doc_strings_to_utf8(obj)$/;"	f	class:PDF.Reader
+dump	editsab_poke/spike.rb	/^    def dump$/;"	f	class:SpikedFile
+each	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def each(&block)$/;"	f	class:PDF.ObjectCache
+each	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def each(&block)$/;"	f	class:PDF.ObjectHash
+each	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def each(&block)$/;"	f	class:PDF.XRef
+each_key	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def each_key(&block)$/;"	f	class:PDF.ObjectCache
+each_key	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def each_key(&block)$/;"	f	class:PDF.ObjectHash
+each_line	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def each_line(&block)$/;"	f	class:PDF.PageLayout
+each_value	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def each_value(&block)$/;"	f	class:PDF.ObjectCache
+each_value	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def each_value(&block)$/;"	f	class:PDF.ObjectHash
+empty?	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def empty?$/;"	f	class:PDF.Buffer
+empty?	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def empty?$/;"	f	class:PDF.ObjectCache
+empty?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def empty?$/;"	f	class:PDF.ObjectHash
+encrypted?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def encrypted?$/;"	f	class:PDF.ObjectHash
+end_text_object	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def end_text_object$/;"	f	class:PDF.PageState
+endx	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def endx$/;"	f	class:PDF.TextRun
+extract_base_info	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def extract_base_info(obj)$/;"	f	class:PDF.Font
+extract_descendants	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def extract_descendants(obj)$/;"	f	class:PDF.Font
+extract_descriptor	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def extract_descriptor(obj)$/;"	f	class:PDF.Font
+extract_io_from	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def extract_io_from(input)$/;"	f	class:PDF.ObjectHash
+extract_text	yobpdf/pdf-reader/tools/bench.rb	/^def extract_text$/;"	f
+faster_multiply!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def faster_multiply!(a2,b2,c2, d2,e2,f2)$/;"	f	class:PDF.TransformationMatrix
+fetch	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def fetch(key, local_default = nil)$/;"	f	class:PDF.ObjectCache
+fetch	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def fetch(key, local_default = nil)$/;"	f	class:PDF.ObjectHash
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii85.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.Ascii85
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii_hex.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.AsciiHex
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.Depredict
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/flate.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.Flate
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/lzw.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.Lzw
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/null.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.Null
+filter	yobpdf/pdf-reader/lib/pdf/reader/filter/run_length.rb	/^      def filter(data)$/;"	f	class:PDF.Filter.RunLength
+final_occurance_of	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def final_occurance_of(methodname)$/;"	f	class:PDF.RegisterReceiver
+find_color_space	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def find_color_space(label)$/;"	f	class:PDF.PageState
+find_first_xref_offset	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def find_first_xref_offset$/;"	f	class:PDF.Buffer
+find_font	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def find_font(label)$/;"	f	class:PDF.PageState
+find_position_of_match	yobpdf/pdf-reader/spec/column_spec.rb	/^  def find_position_of_match(source, regex)$/;"	f
+find_xobject	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def find_xobject(label)$/;"	f	class:PDF.PageState
+findit	editsab_poke/headermaker.rb	/^def findit(lst,nm,f)$/;"	f
+findval	editsab_poke/headermaker.rb	/^def findval(lst,nm)$/;"	f
+first	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def first$/;"	f	class:PDF.ObjectStream
+first_occurance_of	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def first_occurance_of(methodname)$/;"	f	class:PDF.RegisterReceiver
+font_objects	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def font_objects$/;"	f	class:PDF.Reader.FormXObject
+font_size	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def font_size$/;"	f	class:PDF.PageState
+fonts	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def fonts$/;"	f	class:PDF.Reader.ResourceMethods
+get_mapping_file	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def get_mapping_file(enc)$/;"	f	class:PDF.Encoding
+get_page_objects	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def get_page_objects(ref)$/;"	f	class:PDF.ObjectHash
+get_unpack	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def get_unpack(enc)$/;"	f	class:PDF.Encoding
+glyph_to_pdf_scale_factor	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^    def glyph_to_pdf_scale_factor$/;"	f	class:PDF.FontDescriptor
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def glyph_width(code_point)$/;"	f	class:PDF.Font
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^    def glyph_width(char_code)$/;"	f	class:PDF.FontDescriptor
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^      def glyph_width(code_point)$/;"	f	class:PDF.WidthCalculator.BuiltIn
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/composite.rb	/^      def glyph_width(code_point)$/;"	f	class:PDF.WidthCalculator.Composite
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^      def glyph_width(code_point)$/;"	f	class:PDF.WidthCalculator.TrueType
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_one_or_three.rb	/^      def glyph_width(code_point)$/;"	f	class:PDF.WidthCalculator.TypeOneOrThree
+glyph_width	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_zero.rb	/^      def glyph_width(code_point)$/;"	f	class:PDF.WidthCalculator.TypeZero
+glyph_width_from_descriptor	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^      def glyph_width_from_descriptor(code_point)$/;"	f	class:PDF.WidthCalculator.TrueType
+glyph_width_from_font	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^      def glyph_width_from_font(code_point)$/;"	f	class:PDF.WidthCalculator.TrueType
+glyphlist	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def glyphlist$/;"	f	class:PDF.Encoding
+good_files	yobpdf/pdf-reader/spec/support/callback_helper.rb	/^  def good_files$/;"	f	class:CallbackHelper
+good_receivers	yobpdf/pdf-reader/spec/support/callback_helper.rb	/^  def good_receivers$/;"	f	class:CallbackHelper
+graphic_states	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def graphic_states$/;"	f	class:PDF.Reader.ResourceMethods
+group_chars_into_runs	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def group_chars_into_runs(chars)$/;"	f	class:PDF.PageLayout
+has_key?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def has_key?(check_key)$/;"	f	class:PDF.ObjectHash
+has_mapping?	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def has_mapping?$/;"	f	class:PDF.Encoding
+has_value?	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def has_value?(value)$/;"	f	class:PDF.ObjectCache
+has_value?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def has_value?(value)$/;"	f	class:PDF.ObjectHash
+hash	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^    def hash$/;"	f	class:PDF.Reference
+hex_string	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def hex_string$/;"	f	class:PDF
+horizontal_displacement_multiply!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def horizontal_displacement_multiply!(e2)$/;"	f	class:PDF.TransformationMatrix
+horizontal_displacement_multiply_reversed!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def horizontal_displacement_multiply_reversed!(a2,b2,c2,d2,e2,f2)$/;"	f	class:PDF.TransformationMatrix
+identity_matrix	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def identity_matrix$/;"	f	class:PDF.PageState
+in_content_stream?	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def in_content_stream?$/;"	f	class:PDF.Buffer
+include?	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def include?(key)$/;"	f	class:PDF.ObjectCache
+info	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def info$/;"	f	class:PDF.Reader
+initialize	editsab_poke/spike.rb	/^    def initialize(outf_name,padding='41',outf_type="wb",name="***")$/;"	f	class:SpikedFile
+initialize	yobpdf/pdf-reader/examples/extract_bates.rb	/^  def initialize$/;"	f	class:BatesReceiver
+initialize	yobpdf/pdf-reader/examples/extract_fonts.rb	/^    def initialize(objects, font)$/;"	f	class:ExtractFonts.TTF
+initialize	yobpdf/pdf-reader/examples/extract_images.rb	/^    def initialize(stream)$/;"	f	class:ExtractImages.Jpg
+initialize	yobpdf/pdf-reader/examples/extract_images.rb	/^    def initialize(stream)$/;"	f	class:ExtractImages.Raw
+initialize	yobpdf/pdf-reader/examples/extract_images.rb	/^    def initialize(stream)$/;"	f	class:ExtractImages.Tiff
+initialize	yobpdf/pdf-reader/lib/pdf/hash.rb	/^    def initialize(input)$/;"	f	class:PDF.Hash
+initialize	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def initialize(input, opts = {})$/;"	f	class:PDF.Reader
+initialize	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def initialize(io, opts = {})$/;"	f	class:PDF.Buffer
+initialize	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^    def initialize(default, array)$/;"	f	class:PDF.CidWidths
+initialize	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def initialize(data)$/;"	f	class:PDF.CMap
+initialize	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def initialize(enc)$/;"	f	class:PDF.Encoding
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii85.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.Ascii85
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/ascii_hex.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.AsciiHex
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.Depredict
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/flate.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.Flate
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/lzw.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.Lzw
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/null.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.Null
+initialize	yobpdf/pdf-reader/lib/pdf/reader/filter/run_length.rb	/^      def initialize(options = {})$/;"	f	class:PDF.Filter.RunLength
+initialize	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def initialize(ohash, obj)$/;"	f	class:PDF.Font
+initialize	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^    def initialize(ohash, fd_hash)$/;"	f	class:PDF.FontDescriptor
+initialize	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def initialize(page, xobject, options = {})$/;"	f	class:PDF.Reader.FormXObject
+initialize	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^    def initialize$/;"	f	class:PDF.GlyphHash
+initialize	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def initialize$/;"	f	class:PDF.StringTable
+initialize	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def initialize(data, bits_in_chunk)$/;"	f	class:PDF.Reader.LZW.BitStream
+initialize	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def initialize(lru_size = 1000)$/;"	f	class:PDF.ObjectCache
+initialize	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def initialize(input, opts = {})$/;"	f	class:PDF.ObjectHash
+initialize	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def initialize(stream)$/;"	f	class:PDF.ObjectStream
+initialize	yobpdf/pdf-reader/lib/pdf/reader/orientation_detector.rb	/^    def initialize(attributes)$/;"	f	class:PDF.OrientationDetector
+initialize	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def initialize(objects, pagenum, options = {})$/;"	f	class:PDF.Reader.Page
+initialize	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def initialize(runs, mediabox)$/;"	f	class:PDF.PageLayout
+initialize	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def initialize(page)$/;"	f	class:PDF.PageState
+initialize	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def initialize(buffer, objects=nil)$/;"	f	class:PDF.Parser
+initialize	yobpdf/pdf-reader/lib/pdf/reader/print_receiver.rb	/^    def initialize$/;"	f	class:PDF.PrintReceiver
+initialize	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^    def initialize(id, gen)$/;"	f	class:PDF.Reference
+initialize	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def initialize$/;"	f	class:PDF.RegisterReceiver
+initialize	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def initialize(opts = {})$/;"	f	class:PDF.StandardSecurityHandler
+initialize	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def initialize(opts = {})$/;"	f	class:PDF.StandardSecurityHandlerV5
+initialize	yobpdf/pdf-reader/lib/pdf/reader/stream.rb	/^    def initialize(hash, data)$/;"	f	class:PDF.Stream
+initialize	yobpdf/pdf-reader/lib/pdf/reader/synchronized_cache.rb	/^    def initialize$/;"	f	class:PDF.SynchronizedCache
+initialize	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def initialize(x, y, width, font_size, text)$/;"	f	class:PDF.TextRun
+initialize	yobpdf/pdf-reader/lib/pdf/reader/token.rb	/^    def initialize(val)$/;"	f	class:PDF.Token
+initialize	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def initialize(a, b, c, d, e, f)$/;"	f	class:PDF.TransformationMatrix
+initialize	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/built_in.rb	/^      def initialize(font)$/;"	f	class:PDF.WidthCalculator.BuiltIn
+initialize	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/composite.rb	/^      def initialize(font)$/;"	f	class:PDF.WidthCalculator.Composite
+initialize	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/true_type.rb	/^      def initialize(font)$/;"	f	class:PDF.WidthCalculator.TrueType
+initialize	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_one_or_three.rb	/^      def initialize(font)$/;"	f	class:PDF.WidthCalculator.TypeOneOrThree
+initialize	yobpdf/pdf-reader/lib/pdf/reader/width_calculator/type_zero.rb	/^      def initialize(font)$/;"	f	class:PDF.WidthCalculator.TypeZero
+initialize	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def initialize(io)$/;"	f	class:PDF.XRef
+insert	editsab_poke/spike.rb	/^    def Spiker.insert(inf,outf,hexstr,head_sz=512)$/;"	F	class:Spiker
+insert	editsab_poke/spike.rb	/^    def insert(data,enc="H*",offset=@v_cursor)$/;"	f	class:SpikedFile
+inspect	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def inspect$/;"	f	class:PDF.Reader.Page
+inspect	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def inspect$/;"	f	class:PDF.TextRun
+inspect	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def inspect$/;"	f	class:PDF.TransformationMatrix
+int_to_name	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def int_to_name(glyph_code)$/;"	f	class:PDF.Encoding
+int_to_utf8_string	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def int_to_utf8_string(glyph_code)$/;"	f	class:PDF.Encoding
+interesting_rows	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def interesting_rows(rows)$/;"	f	class:PDF.PageLayout
+internal_int_to_utf8_string	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def internal_int_to_utf8_string(glyph_code)$/;"	f	class:PDF.Encoding
+internal_show_text	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def internal_show_text(string)$/;"	f	class:PDF.Reader.PageTextReceiver
+invoke_xobject	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def invoke_xobject(label)$/;"	f	class:PDF.PageState
+invoke_xobject	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def invoke_xobject(label)$/;"	f	class:PDF.Reader.PageTextReceiver
+keys	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def keys$/;"	f	class:PDF.ObjectCache
+keys	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def keys$/;"	f	class:PDF.ObjectHash
+little_boxes	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def little_boxes(times)$/;"	f	class:PDF.Encoding
+load_adobe_glyph_mapping	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^    def load_adobe_glyph_mapping$/;"	f	class:PDF.GlyphHash
+load_mapping	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def load_mapping(file)$/;"	f	class:PDF.Encoding
+load_offsets	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def load_offsets(offset = nil)$/;"	f	class:PDF.XRef
+load_xref_stream	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def load_xref_stream(stream)$/;"	f	class:PDF.XRef
+load_xref_table	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def load_xref_table(buf)$/;"	f	class:PDF.XRef
+local_string_insert	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def local_string_insert(haystack, needle, index)$/;"	f	class:PDF.PageLayout
+log	editsab_poke/spike.rb	/^    def log(msg="no message",tag=@name)$/;"	f	class:SpikedFile
+main	c_test/test.c	/^int main(void)$/;"	f
+make_file_key	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def make_file_key( user_pass )$/;"	f	class:PDF.StandardSecurityHandler
+mean	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def mean(collection)$/;"	f	class:PDF.PageLayout
+mean_character_width	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def mean_character_width$/;"	f	class:PDF.TextRun
+mergable?	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def mergable?(other)$/;"	f	class:PDF.TextRun
+mergable_range	yobpdf/pdf-reader/lib/pdf/reader/text_run.rb	/^    def mergable_range$/;"	f	class:PDF.TextRun
+merge_indirect_reference	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def merge_indirect_reference$/;"	f	class:PDF.Buffer
+merge_runs	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def merge_runs(runs)$/;"	f	class:PDF.PageLayout
+metadata	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def metadata$/;"	f	class:PDF.Reader
+method_missing	yobpdf/pdf-reader/lib/pdf/reader/print_receiver.rb	/^    def method_missing(methodname, *args)$/;"	f	class:PDF.PrintReceiver
+method_missing	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def method_missing(methodname, *args)$/;"	f	class:PDF.RegisterReceiver
+mk_content	editsab_poke/spike.rb	/^    def mk_content$/;"	f	class:SpikedFile
+move_text_position	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def move_text_position(x, y) # Td$/;"	f	class:PDF.PageState
+move_text_position_and_set_leading	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def move_text_position_and_set_leading(x, y) # TD$/;"	f	class:PDF.PageState
+move_to_next_line_and_show_text	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def move_to_next_line_and_show_text(str) # '$/;"	f	class:PDF.PageState
+move_to_next_line_and_show_text	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def move_to_next_line_and_show_text(str) # '$/;"	f	class:PDF.Reader.PageTextReceiver
+move_to_start_of_next_line	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def move_to_start_of_next_line # T*$/;"	f	class:PDF.PageState
+multiply!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def multiply!(a,b=nil,c=nil, d=nil,e=nil,f=nil)$/;"	f	class:PDF.TransformationMatrix
+multiply_with_an_object!	yobpdf/pdf-reader/spec/transformation_matrix_spec.rb	/^      def multiply_with_an_object!(m2)$/;"	f	class:PDF
+name_to_unicode	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^    def name_to_unicode(name)$/;"	f	class:PDF.GlyphHash
+new_buffer	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def new_buffer(offset = 0)$/;"	f	class:PDF.ObjectHash
+new_buffer	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def new_buffer(offset = 0)$/;"	f	class:PDF.XRef
+number	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def number$/;"	f	class:PDF.Reader.Page
+obj_type	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def obj_type(ref)$/;"	f	class:PDF.ObjectHash
+object	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def object(key)$/;"	f	class:PDF.ObjectHash
+object	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def object(id, gen)$/;"	f	class:PDF.Parser
+object_streams	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def object_streams$/;"	f	class:PDF.ObjectHash
+offsets	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def offsets$/;"	f	class:PDF.ObjectStream
+open	editsab_poke/spike.rb	/^    def self.open(outf_name,padding='41',outf_type="wb",name="***")$/;"	F	class:SpikedFile
+open	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def self.open(input, opts = {}, &block)$/;"	F	class:PDF.Reader
+orientation	yobpdf/pdf-reader/lib/pdf/reader/orientation_detector.rb	/^    def orientation$/;"	f	class:PDF.OrientationDetector
+orientation	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def orientation$/;"	f	class:PDF.Reader.Page
+pad_pass	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def pad_pass(p="")$/;"	f	class:PDF.StandardSecurityHandler
+page	yobpdf/pdf-reader/examples/extract_fonts.rb	/^    def page(page)$/;"	f	class:ExtractFonts.Extractor
+page	yobpdf/pdf-reader/examples/extract_images.rb	/^    def page(page)$/;"	f	class:ExtractImages.Extractor
+page	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def page(num)$/;"	f	class:PDF.Reader
+page=	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def page=(page)$/;"	f	class:PDF.Reader.PageTextReceiver
+page_count	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def page_count$/;"	f	class:PDF.Reader
+page_references	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def page_references$/;"	f	class:PDF.ObjectHash
+page_with_ancestors	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def page_with_ancestors$/;"	f	class:PDF.Reader.Page
+pages	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def pages$/;"	f	class:PDF.Reader
+parse_array	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^    def parse_array(default, array)$/;"	f	class:PDF.CidWidths
+parse_first_form	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^    def parse_first_form(first, widths)$/;"	f	class:PDF.CidWidths
+parse_second_form	yobpdf/pdf-reader/lib/pdf/reader/cid_widths.rb	/^    def parse_second_form(first, final, width)$/;"	f	class:PDF.CidWidths
+parse_string	yobpdf/pdf-reader/spec/support/buffer_helper.rb	/^  def parse_string(r)$/;"	f	class:BufferHelper
+parse_string	yobpdf/pdf-reader/spec/support/parser_helper.rb	/^  def parse_string(r)$/;"	f	class:ParserHelper
+parse_token	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def parse_token(operators={})$/;"	f	class:PDF.Parser
+patterns	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def patterns$/;"	f	class:PDF.Reader.ResourceMethods
+pdf_name	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def pdf_name$/;"	f	class:PDF.Parser
+pdf_spec_file	yobpdf/pdf-reader/spec/support/reader_spec_helper.rb	/^  def pdf_spec_file(base)$/;"	f	class:ReaderSpecHelper
+pdf_version	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def pdf_version$/;"	f	class:PDF.Reader
+pdfdoc_to_utf8	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def pdfdoc_to_utf8(obj)$/;"	f	class:PDF.Reader
+peek_byte	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def peek_byte$/;"	f	class:PDF
+png_depredict	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^      def png_depredict(data)$/;"	f	class:PDF.Filter
+prepare_hex_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def prepare_hex_token$/;"	f	class:PDF
+prepare_inline_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def prepare_inline_token$/;"	f	class:PDF.Buffer
+prepare_literal_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def prepare_literal_token$/;"	f	class:PDF
+prepare_regular_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def prepare_regular_token$/;"	f	class:PDF
+prepare_tokens	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def prepare_tokens$/;"	f	class:PDF.Buffer
+procedure_sets	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def procedure_sets$/;"	f	class:PDF.Reader.ResourceMethods
+process_bfchar_instructions	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def process_bfchar_instructions(instructions)$/;"	f	class:PDF
+process_bfrange_instructions	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def process_bfrange_instructions(instructions)$/;"	f	class:PDF
+process_data	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def process_data(data)$/;"	f	class:PDF.CMap
+process_font	yobpdf/pdf-reader/examples/extract_fonts.rb	/^    def process_font(page, font)$/;"	f	class:ExtractFonts.Extractor
+process_glyph_displacement	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def process_glyph_displacement(w0, tj, word_boundary)$/;"	f	class:PDF.PageState
+process_page	yobpdf/pdf-reader/examples/extract_images.rb	/^    def process_page(page, count)$/;"	f	class:ExtractImages.Extractor
+properties	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def properties$/;"	f	class:PDF.Reader.ResourceMethods
+raw_content	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def raw_content$/;"	f	class:PDF.Reader.FormXObject
+raw_content	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def raw_content$/;"	f	class:PDF.Reader.Page
+read	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def read(bytes, opts = {})$/;"	f	class:PDF.Buffer
+read	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def read$/;"	f	class:PDF.Reader.LZW.BitStream
+read_as_binary	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def read_as_binary(input)$/;"	f	class:PDF.ObjectHash
+read_version	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def read_version$/;"	f	class:PDF.ObjectHash
+regular_multiply!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def regular_multiply!(a2,b2,c2,d2,e2,f2)$/;"	f	class:PDF.TransformationMatrix
+reset_pos	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def reset_pos$/;"	f	class:PDF.Buffer
+resources	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def resources$/;"	f	class:PDF.Reader.FormXObject
+resources	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def resources$/;"	f	class:PDF.Reader.Page
+respond_to?	yobpdf/pdf-reader/lib/pdf/reader/print_receiver.rb	/^    def respond_to?(meth)$/;"	f	class:PDF.PrintReceiver
+respond_to?	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def respond_to?(meth)$/;"	f	class:PDF.RegisterReceiver
+restore_graphics_state	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def restore_graphics_state$/;"	f	class:PDF.PageState
+root	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def root$/;"	f	class:PDF.Reader
+root	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def root$/;"	f	class:PDF.Reader.Page
+row_count	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def row_count$/;"	f	class:PDF.PageLayout
+row_multiplier	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def row_multiplier$/;"	f	class:PDF.PageLayout
+save	yobpdf/pdf-reader/examples/extract_fonts.rb	/^    def save(filename)$/;"	f	class:ExtractFonts.TTF
+save	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save(filename)$/;"	f	class:ExtractImages.Jpg
+save	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save(filename)$/;"	f	class:ExtractImages.Raw
+save	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save(filename)$/;"	f	class:ExtractImages.Tiff
+save_cmyk	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save_cmyk(filename)$/;"	f	class:ExtractImages.Raw
+save_graphics_state	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def save_graphics_state$/;"	f	class:PDF.PageState
+save_gray	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save_gray(filename)$/;"	f	class:ExtractImages.Raw
+save_group_four	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save_group_four(filename)$/;"	f	class:ExtractImages.Tiff
+save_pos	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def save_pos$/;"	f	class:PDF.Buffer
+save_rgb	yobpdf/pdf-reader/examples/extract_images.rb	/^    def save_rgb(filename)$/;"	f	class:ExtractImages.Raw
+sec_handler?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def sec_handler?$/;"	f	class:PDF.ObjectHash
+select_inheritable	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def select_inheritable(obj)$/;"	f	class:PDF.Reader.Page
+series	yobpdf/pdf-reader/lib/pdf/reader/register_receiver.rb	/^    def series(*methods)$/;"	f	class:PDF.RegisterReceiver
+set_bits_in_chunk	yobpdf/pdf-reader/lib/pdf/reader/lzw.rb	/^        def set_bits_in_chunk(bits_in_chunk)$/;"	f	class:PDF.Reader.LZW.BitStream
+set_character_spacing	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_character_spacing(char_spacing)$/;"	f	class:PDF.PageState
+set_horizontal_text_scaling	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_horizontal_text_scaling(h_scaling)$/;"	f	class:PDF.PageState
+set_spacing_next_line_show_text	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_spacing_next_line_show_text(aw, ac, string) # "$/;"	f	class:PDF.PageState
+set_spacing_next_line_show_text	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def set_spacing_next_line_show_text(aw, ac, string) # "$/;"	f	class:PDF.Reader.PageTextReceiver
+set_text_font_and_size	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_text_font_and_size(label, size)$/;"	f	class:PDF.PageState
+set_text_leading	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_text_leading(leading)$/;"	f	class:PDF.PageState
+set_text_matrix_and_text_line_matrix	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_text_matrix_and_text_line_matrix(a, b, c, d, e, f) # Tm$/;"	f	class:PDF.PageState
+set_text_rendering_mode	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_text_rendering_mode(mode)$/;"	f	class:PDF.PageState
+set_text_rise	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_text_rise(rise)$/;"	f	class:PDF.PageState
+set_word_spacing	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def set_word_spacing(word_spacing)$/;"	f	class:PDF.PageState
+shadings	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def shadings$/;"	f	class:PDF.Reader.ResourceMethods
+show_text	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def show_text(string) # Tj (AWAY)$/;"	f	class:PDF.Reader.PageTextReceiver
+show_text_with_positioning	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def show_text_with_positioning(params) # TJ$/;"	f	class:PDF.PageState
+show_text_with_positioning	yobpdf/pdf-reader/lib/pdf/reader/page_text_receiver.rb	/^      def show_text_with_positioning(params) # TJ [(A) 120 (WA) 20 (Y)]$/;"	f	class:PDF.Reader.PageTextReceiver
+size	editsab_poke/spike.rb	/^    def size$/;"	f	class:SpikedFile
+size	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def size$/;"	f	class:PDF.CMap
+size	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def size$/;"	f	class:PDF.ObjectCache
+size	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def size$/;"	f	class:PDF.ObjectHash
+size	yobpdf/pdf-reader/lib/pdf/reader/object_stream.rb	/^    def size$/;"	f	class:PDF.ObjectStream
+size	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def size$/;"	f	class:PDF.XRef
+stack_depth	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def stack_depth$/;"	f	class:PDF.PageState
+state	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def state$/;"	f	class:PDF.Buffer
+state	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def state$/;"	f	class:PDF.PageState
+store	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def store(id, gen, offset)$/;"	f	class:PDF.XRef
+str_assert	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^    def self.str_assert(lvalue, rvalue, chars=nil)$/;"	F	class:PDF.Error
+str_assert_not	yobpdf/pdf-reader/lib/pdf/reader/error.rb	/^    def self.str_assert_not(lvalue, rvalue, chars=nil)$/;"	F	class:PDF.Error
+str_to_int	yobpdf/pdf-reader/lib/pdf/reader/cmap.rb	/^    def str_to_int(str)$/;"	f	class:PDF.CMap
+stream	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def stream(dict)$/;"	f	class:PDF
+stream?	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def stream?(ref)$/;"	f	class:PDF.ObjectHash
+string	yobpdf/pdf-reader/lib/pdf/reader/parser.rb	/^    def string$/;"	f	class:PDF
+string_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def string_token(token)$/;"	f	class:PDF
+supports	yobpdf/pdf-reader/lib/pdf/reader/null_security_handler.rb	/^    def self.supports?(encrypt)$/;"	F	class:PDF.NullSecurityHandler
+supports	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def self.supports?(encrypt)$/;"	F	class:PDF.StandardSecurityHandler
+supports	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler_v5.rb	/^    def self.supports?(encrypt)$/;"	F	class:PDF.StandardSecurityHandlerV5
+supports	yobpdf/pdf-reader/lib/pdf/reader/unimplemented_security_handler.rb	/^    def self.supports?(encrypt)$/;"	F	class:PDF.UnimplementedSecurityHandler
+text	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def text$/;"	f	class:PDF.Reader.Page
+text_rendering_matrix	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def text_rendering_matrix$/;"	f	class:PDF.PageState
+tiff_depredict	yobpdf/pdf-reader/lib/pdf/reader/filter/depredict.rb	/^      def tiff_depredict(data)$/;"	f	class:PDF.Filter.Depredict
+to_a	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def to_a$/;"	f	class:PDF.ObjectHash
+to_a	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^    def to_a$/;"	f	class:PDF.Reference
+to_a	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def to_a$/;"	f	class:PDF.TransformationMatrix
+to_i	yobpdf/pdf-reader/lib/pdf/reader/reference.rb	/^    def to_i$/;"	f	class:PDF.Reference
+to_s	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def to_s$/;"	f	class:PDF.ObjectCache
+to_s	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def to_s$/;"	f	class:PDF.ObjectHash
+to_s	yobpdf/pdf-reader/lib/pdf/reader/page_layout.rb	/^    def to_s$/;"	f	class:PDF.PageLayout
+to_token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^      def token.to_token$/;"	F	class:PDF.string_token
+to_utf8	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def to_utf8(str)$/;"	f	class:PDF.Encoding
+to_utf8	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def to_utf8(params)$/;"	f	class:PDF.Font
+to_utf8_via_cmap	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def to_utf8_via_cmap(params)$/;"	f	class:PDF.Font
+to_utf8_via_encoding	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def to_utf8_via_encoding(params)$/;"	f	class:PDF.Font
+token	yobpdf/pdf-reader/lib/pdf/reader/buffer.rb	/^    def token$/;"	f	class:PDF.Buffer
+tokens	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def tokens$/;"	f	class:PDF.Reader.FormXObject
+trm_transform	yobpdf/pdf-reader/lib/pdf/reader/page_state.rb	/^      def trm_transform(x, y)$/;"	f	class:PDF.PageState
+ttf_program_stream	yobpdf/pdf-reader/lib/pdf/reader/font_descriptor.rb	/^    def ttf_program_stream$/;"	f	class:PDF.FontDescriptor
+unfiltered_data	yobpdf/pdf-reader/lib/pdf/reader/stream.rb	/^    def unfiltered_data$/;"	f	class:PDF.Stream
+unicode_to_name	yobpdf/pdf-reader/lib/pdf/reader/glyph_hash.rb	/^    def unicode_to_name(codepoint)$/;"	f	class:PDF.GlyphHash
+unpack	yobpdf/pdf-reader/lib/pdf/reader/font.rb	/^    def unpack(data)$/;"	f	class:PDF.Font
+unpack_bytes	yobpdf/pdf-reader/lib/pdf/reader/xref.rb	/^    def unpack_bytes(bytes)$/;"	f	class:PDF.XRef
+update_stats	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def update_stats(key)$/;"	f	class:PDF.ObjectCache
+utf16_to_utf8	yobpdf/pdf-reader/lib/pdf/reader.rb	/^    def utf16_to_utf8(obj)$/;"	f	class:PDF.Reader
+utf8_conversion_impossible?	yobpdf/pdf-reader/lib/pdf/reader/encoding.rb	/^    def utf8_conversion_impossible?$/;"	f	class:PDF.Encoding
+values	yobpdf/pdf-reader/lib/pdf/reader/object_cache.rb	/^    def values$/;"	f	class:PDF.ObjectCache
+values	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def values$/;"	f	class:PDF.ObjectHash
+values_at	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def values_at(*ids)$/;"	f	class:PDF.ObjectHash
+version	yobpdf/pdf-reader/lib/pdf/hash.rb	/^    def version$/;"	f	class:PDF.Hash
+walk	yobpdf/pdf-reader/lib/pdf/reader/form_xobject.rb	/^      def walk(*receivers)$/;"	f	class:PDF.Reader.FormXObject
+walk	yobpdf/pdf-reader/lib/pdf/reader/page.rb	/^      def walk(*receivers)$/;"	f	class:PDF.Reader.Page
+with	yobpdf/pdf-reader/lib/pdf/reader/filter.rb	/^    def self.with(name, options = {})$/;"	F	class:PDF.Filter
+xobjects	yobpdf/pdf-reader/lib/pdf/reader/resource_methods.rb	/^      def xobjects$/;"	f	class:PDF.Reader.ResourceMethods
+xor_each_byte	yobpdf/pdf-reader/lib/pdf/reader/standard_security_handler.rb	/^    def xor_each_byte(buf, int)$/;"	f	class:PDF.StandardSecurityHandler
+xref	yobpdf/pdf-reader/lib/pdf/reader/object_hash.rb	/^    def xref$/;"	f	class:PDF.ObjectHash
+xy_scaling_multiply!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def xy_scaling_multiply!(a2,b2,c2,d2,e2,f2)$/;"	f	class:PDF.TransformationMatrix
+xy_scaling_multiply_reversed!	yobpdf/pdf-reader/lib/pdf/reader/transformation_matrix.rb	/^    def xy_scaling_multiply_reversed!(a2,b2,c2,d2,e2,f2)$/;"	f	class:PDF.TransformationMatrix
