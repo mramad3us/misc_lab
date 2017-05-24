@@ -167,10 +167,14 @@ class FuzzedFile < SpikedFile
         #return false if failed, otherwise return true
         #If offst_end not specified, mutate from start to eof
 
+        #log("Size is #{size}","DBG")
         mk_content
         if offst_end.nil?
             offst_sz = size
             offst_end = size - 1 #Put cursor to eof
+        elsif offst_end > size
+            log("Wrong size, check offsets","ERROR")
+            return false
         else
             if offst_end < offst_start
                 log("End offset bigger than start...","ERROR")
