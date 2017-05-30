@@ -11,13 +11,15 @@ module Spiker
         #Flip all bits from input and return result
         #If verbose is true, output detail (To improve with negative numbers...)
         to_ret = ""
+        puts("[ Bitflip ]  Processing data...")
         idata.chars.each do |c|
             raw = c.unpack("C")[0]
-            puts("[ Bitflip ] In : #{raw.to_s(2)}") if verbose
+            puts("[ Bitflip ]  In : #{raw.to_s(2)}") if verbose
             flipped = ~raw 
             puts("[ Bitflip ] Out : #{flipped.to_s(2)}") if verbose
             to_ret += [flipped].pack("C")
         end
+        puts("[ Bitflip ]  Done")
         return to_ret
     end
 
