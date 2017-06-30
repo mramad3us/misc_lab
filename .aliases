@@ -1,0 +1,19 @@
+#!/bin/bash
+
+alias ll='ls -lF'
+alias la='ls -A'
+alias l='ls -CF'
+alias cp='cp -r'
+alias msfconsole='/home/mramad3us/sploitation/toolkit/msf4/msfconsole'
+alias msfupdate='/home/mramad3us/sploitation/toolkit/msf4/msfupdate'
+alias backdoor-factory='/home/mramad3us/sploitation/toolkit/the-backdoor-factory/backdoor.py'
+alias msfvenom='/home/mramad3us/sploitation/toolkit/msf4/msfvenom'
+alias veil-evasion='/home/mramad3us/sploitation/toolkit/Veil-Evasion/Veil-Evasion.py'
+alias handle_tcp='msfconsole -r /home/mramad3us/sploitation/toolkit/msf4/scripts/resource/custom/handler.rc'
+alias edit_handler='vim /home/mramad3us/sploitation/toolkit/msf4/scripts/resource/custom/handler.rc'
+alias ollydbg='wine /home/mramad3us/sploitation/toolkit/windows_tools/OLLYDBG.EXE'
+
+alias objdump-win='x86_64-w64-mingw32-objdump'
+alias gcc-win='x86_64-w64-mingw32-gcc'
+alias g++-win='x86_64-w64-mingw32-g++'
+alias gdb-win='x86_64-w64-mingw32-gdb'
