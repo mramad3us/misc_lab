@@ -1,0 +1,3 @@
+'A' Header : Seems exploitable to some extent
+'B' Header : Kernelba crash after kernel.dll --> Not exploitable in Edsb context
+'C' Header : Seems exploitable --> Followup is : Chose a callback to jump to.
