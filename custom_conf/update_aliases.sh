@@ -5,6 +5,6 @@
 BASEDIR=/home/mramad3us
 
 
-cp $BASEDIR/.aliases $BASEDIR/misc_lab
-cd $BASEDIR/misc_lab && git add .aliases && git add update_aliases.sh && git commit -m updating && git push
+cp $BASEDIR/.aliases $BASEDIR/misc_lab/custom_conf
+cd $BASEDIR/misc_lab && git add custom_conf && git commit -m updating && git push
 
