@@ -21,3 +21,4 @@ alias vt-notify='~/sploitation/toolkit/Veil-Evasion/tools/vt-notify/vt-notify.rb
 alias avcheck='/home/mramad3us/misc_lab/pe_poke/tools/avcheck.sh'
 alias routersploit='/home/mramad3us/sploitation/toolkit/routersploit/rsf.py'
 alias update_aliases='/home/mramad3us/misc_lab/custom_conf/update_aliases.sh'
+alias restore_wifi='/home/mramad3us/misc_lab/scripts/restore_wifi.sh'
