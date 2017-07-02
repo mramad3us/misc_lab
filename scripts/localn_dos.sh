@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Launching msf..."
-msfconsole -r $HOME/misc_lab/scripts/run_as.rc
+sudo /home/mramad3us/sploitation/toolkit/msf4/msfconsole -r /home/mramad3us/misc_lab/scripts/run_as.rc
 
