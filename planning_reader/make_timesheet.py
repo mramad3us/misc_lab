@@ -42,7 +42,7 @@ def prefill_of_numbers_with_openpyxl(file_path, sheet_name, project_info, start_
     worksheet = workbook[sheet_name]
 
     for project_code, details in project_info.items():
-        response = input(f"Is the project code {project_code} internal or external? (i/e): ").strip().lower()
+        response = input(f"Is the project code {project_code} {details['Customer Name']} internal or external? (i/e): ").strip().lower()
         of_code = details['OF Codes']['INTERNE'] if response == 'i' else details['OF Codes']['EXTERNE']
 
         current_row = start_row_index + 1
