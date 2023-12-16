@@ -23,7 +23,7 @@ def get_of_code_mappings(pointage_df):
 # The rest of the script remains the same
 
 def main():
-    file_path = 'PLANNING SAV.xlsx'  # Replace with your actual file path
+    file_path = 'Planning SAV.xlsx'  # Replace with your actual file path
     planning_df, pointage_df = read_planning_data(file_path)
 
     # Get the OF code mappings from the 'POINTAGE' sheet
