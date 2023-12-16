@@ -1,48 +1,33 @@
+From inspecting the 'POINTAGE' sheet, it's evident that:
+
+1. **Column 'Unnamed: 1'**: Contains project or affair names, such as 'LP41 S04', 'AL08'.
+2. **Column 'Unnamed: 2' (labeled 'INTERNE')**: Likely contains the 'INTERNE' OF codes corresponding to the projects.
+3. **Column 'Unnamed: 3' (labeled 'EXTERNE')**: Likely contains the 'EXTERNE' OF codes corresponding to the projects.
+
+Based on this, we can adjust the script to use 'Unnamed: 1' for project codes and 'Unnamed: 2' and 'Unnamed: 3' for 'INTERNE' and 'EXTERNE' OF codes, respectively. Here's the revised script:
+
+```python
 import pandas as pd
 
 def read_planning_data(file_path):
-    # Load the 'ANNEE 2023' sheet
+    # Load the 'ANNEE 2023' sheet and the 'POINTAGE' sheet
     planning_df = pd.read_excel(file_path, sheet_name='ANNEE 2023')
-    # Load the 'POINTAGE' sheet
     pointage_df = pd.read_excel(file_path, sheet_name='POINTAGE')
     return planning_df, pointage_df
 
 def get_of_code_mappings(pointage_df):
-    # Create a dictionary to map project codes to their OF codes (both 'INTERNE' and 'EXTERNE')
+    # Map project codes to their 'INTERNE' and 'EXTERNE' OF codes
     of_code_mappings = {}
     for _, row in pointage_df.iterrows():
-        affair_code = row['AFFAIRE']
-        if pd.notna(affair_code):
-            of_code_mappings[affair_code] = {
-                'INTERNE': row['INTERNE'],
-                'EXTERNE': row['EXTERNE']
+        project_code = row['Unnamed: 1']
+        if pd.notna(project_code):
+            of_code_mappings[project_code] = {
+                'INTERNE': row['Unnamed: 2'],
+                'EXTERNE': row['Unnamed: 3']
             }
     return of_code_mappings
 
-def extract_week_data(df, week_number, of_code_mappings):
-    # Convert week number to column range
-    start_col_index = 273 + (week_number - 39) * 7
-    end_col_index = start_col_index + 6
-
-    # Define the specific row range for Samuel Murez's data
-    samuel_murez_row_range = (546, 550)
-
-    # Extract data for the specified week and rows
-    week_data = df.iloc[samuel_murez_row_range[0]:samuel_murez_row_range[1], start_col_index:end_col_index]
-
-    # Extract project codes, customer names, and OF codes
-    project_info = {}
-    for col in week_data.columns:
-        for row in week_data[col].dropna().unique():
-            if ' ' in row:
-                project_code, customer_name = row.split(' ', 1)
-                of_codes = of_code_mappings.get(project_code, {'INTERNE': None, 'EXTERNE': None})
-                project_info[project_code] = {
-                    'Customer Name': customer_name,
-                    'OF Codes': of_codes
-                }
-
-    return project_info
+# Rest of the script remains the same...
 
 def main():
     file_path = 'path_to_your_excel_file.xlsx'  # Replace with your actual file path
@@ -60,3 +45,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+This script now uses the corrected column names from the 'POINTAGE' sheet to map project codes to their 'INTERNE' and 'EXTERNE' OF codes. Please ensure to replace `'path_to_your_excel_file.xlsx'` with the actual path to your Excel file.
